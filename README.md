@@ -1,5 +1,5 @@
 # Cifrado Vigenere Proyecto
-Script de Python creado para un proyecto en Matematica Discreta sobre el cifrado Vigenère. No solo permite cifrar y descifrar mensajes, sino que incluye herramientas de criptoanálisis para romper el cifrado sin conocer la clave, utilizando estadística y fuerza bruta. 
+Script de Python creado para un proyecto en Matemática Discreta sobre el cifrado Vigenère. No solo permite cifrar y descifrar mensajes, sino que incluye herramientas de criptoanálisis para romper el cifrado sin conocer la clave, utilizando estadística y fuerza bruta. 
 
 ---
 ## Explicación básica de las 5 opciones
@@ -31,3 +31,34 @@ $$N = 26^L$$
 * `ejecutar_benchmark_multiproceso` Pone a todos los núcleos indicados de la CPU a descifrar textos de prueba simultáneamente para medir cuántas operaciones por segundo es capaz de realizar el ordenador. Da una estimación de cuánto tardarías en romper un texto cifrado con este algoritmo segun la longitud de la clave.
 * El tiempo necesario $T$ para romper una clave crece exponencialmente respecto a su longitud $L$. Calculando la velocidad de la CPU ($\rho$), estimamos:
 $$T(L) \approx \frac{26^L}{\rho}$$
+
+<br><br>
+<br><br>
+
+## Cómo ejecutar el proyecto
+
+
+### 1. Clonar el repositorio
+
+
+```bash
+git clone https://github.com/Ager90/Cifrado-Vigenere-Proyecto.git
+
+```
+
+### 2. Acceder al directorio
+
+```bash
+cd Cifrado-Vigenere-Proyecto
+
+```
+
+### 3. Ejecutar la aplicación
+
+```bash
+python3 Pigenere.py
+```
+
+
+> El proyecto está desarrollado con la librería estándar de Python 3, por lo que no necesita instalar de dependencias adicionales.
+
